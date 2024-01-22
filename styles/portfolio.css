@@ -8,11 +8,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
+    margin left: 230px;
 }
 
 #r {
@@ -48,4 +50,82 @@ padding: 15px 35px;
 font-size: 20px;
 font-weight: 700;
 line-height: normal;
+}
+
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 85px;
+    color: var(--Dark-01, #181818);
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+width: 498px;
+height: 116px;
+top: 363px;
+left: 230px;
+bottom: 0px;
+
+}
+.banner-conc{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 585px;
+margin-top: 0px;
+
+width: 585px;
+height: 60px;
+/*top: 499px; */
+left: 230px;
+
+}
+
+.banner-greeting{
+font-size: 45px;
+margin-left: 10px;
+color: var(--Dark-02, #474747);
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+width: 177px;
+height: 61px;
+top: 297px; 
+left: 230px;
+bottom: 0px;
+}
+
+#download{
+    color: white;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#hardy{
+   width: 584px;
+height: 676px;
+flex-shrink: 0;
+/* top: 161px;
+left: 978px; */
+
+}
+.btn{
+  
 }
