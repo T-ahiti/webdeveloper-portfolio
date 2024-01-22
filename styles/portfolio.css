@@ -54,12 +54,21 @@ line-height: normal;
 
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
+
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contant{
+    max-width: 500px;
 }
 
 .banner-title{
@@ -69,6 +78,8 @@ font-size: 85px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 5px;
+margin-bottom: 20px;
 
 width: 498px;
 height: 116px;
@@ -86,6 +97,7 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 width: 585px;
 margin-top: 0px;
+margin-bottom: 30px;
 
 width: 585px;
 height: 60px;
@@ -106,7 +118,7 @@ width: 177px;
 height: 61px;
 top: 297px; 
 left: 230px;
-bottom: 0px;
+margin-bottom: 0px;
 }
 
 #download{
@@ -127,5 +139,5 @@ left: 978px; */
 
 }
 .btn{
-  
+  margin-top: 0px;
 }
