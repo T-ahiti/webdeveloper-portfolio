@@ -237,6 +237,7 @@ main section {
 /* styles of summary of my resume  */
 .resume-container {
     display: flex;
+    gap: 50px;
 }
 
 .resume-column-title {
@@ -267,8 +268,12 @@ main section {
     width: 511px;
 }
 
-hr {
+.resume-container hr{
     width: 558px;
     height: 1px;
     background: #d1d1d100;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
