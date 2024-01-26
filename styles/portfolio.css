@@ -228,9 +228,19 @@ main section {
 }
 
 .skill-description {
-    color:  #757575;
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    /* 175% */
+}
+
+/* styles of summary of my resume  */
+.resume-container {
+    display: flex;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
