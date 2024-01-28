@@ -284,4 +284,12 @@ footer{
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
 }
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    padding: 18px 35px;
+} 
